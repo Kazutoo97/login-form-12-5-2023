@@ -85,7 +85,11 @@ a {
   left: 125px;
   width: 100px;
   height: 300px;
-  background: linear-gradient(var(--color-1), var(--color-2), var(--color-3));
+  background: linear-gradient(
+    var(--color-1) 30%,
+    var(--color-2) 70%,
+    var(--color-3)
+  );
   border-radius: 70px;
 }
 
